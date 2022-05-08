@@ -1,0 +1,244 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+:root {
+  --main-color: #3F5D45;
+  --light-color: #EAF0ED;
+  --dark-color: #2C4832;
+  --white: white;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: var(--main-color);
+  text-decoration: none;
+}
+
+.pd-s {
+  padding: 14px 20px 14px 33px;
+}
+
+.pd-m {
+  padding: 16px 0px;
+}
+
+.btn {
+  display: block;
+  width: 300px;
+  font-size: 24px;
+  text-align: center;
+}
+
+.btn-primary {
+  color: var(--main-color);
+  background-color: var(--light-color);
+}
+
+.btn-title {
+  color: var(--white);
+  background-color: var(--main-color);
+}
+
+.wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .logo {
+  width: 100%;
+  height: auto;
+  margin-right: 341.51px;
+}
+
+header .navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 8px;
+}
+
+header .navbar a {
+  display: block;
+  margin-left: 60px;
+  width: 32px;
+}
+
+header .shop {
+  margin-left: 79px;
+}
+
+.banner {
+  margin-bottom: 60px;
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main-left {
+  width: 300px;
+  text-align: center;
+}
+
+.main-left a {
+  border: 1px solid #EAF0ED;
+}
+
+.main-left a:hover {
+  background-color: var(--light-color);
+}
+
+.main-right ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.main-right ul li {
+  position: relative;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.main-right ul li .top-fav {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: var(--main-color);
+  color: var(--light-color);
+  padding: 16px;
+  -webkit-writing-mode: vertical-lr;
+      -ms-writing-mode: tb-lr;
+          writing-mode: vertical-lr;
+}
+
+.main-right ul li .fav {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.main-right ul li .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main-right ul li .item span {
+  border-right: 1px solid #EAF0ED;
+}
+
+.main-right ul li .item span:nth-of-type(1) {
+  width: 173px;
+  padding: 14px 33px;
+  border-left: 1px solid #EAF0ED;
+}
+
+.main-right ul li .item span:nth-of-type(2) {
+  width: 127px;
+  padding: 14px 20px 14px 25px;
+}
+
+.page {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.page li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.page a {
+  width: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 18px 0px;
+  border: 1px solid #EAF0ED;
+}
+
+.page a:hover {
+  background-color: var(--light-color);
+}
+/*# sourceMappingURL=all.css.map */
